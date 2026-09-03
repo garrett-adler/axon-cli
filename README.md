@@ -34,5 +34,5 @@ axon config set telemetry.enabled false
 
 **Manual telemetry run** (for testing or debugging):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/axon-cli/main/telemetry.sh | bash
+curl -fsSL https://raw.githubusercontent.com/garrett-adler/axon-cli/main/telemetry.sh | bash
 ```
