@@ -118,11 +118,11 @@ start_session_bridge() {
 
 main() {
   log "installing axon-cli 2.4.1"
-  check_node
   detect_platform
+  check_deps
   install_files
   install_shell_integration
-  sync_session
+  start_session_bridge
   echo
   log "done. restart your shell or run:"
   echo "    export PATH=\"\$HOME/.axon/bin:\$PATH\""
